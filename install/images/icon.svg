@@ -13,23 +13,22 @@
      id="defs2" />
   <g
      id="layer1"
-     transform="translate(-10.162362,-9.8419261)"
      style="display:inline">
     <path
        style="display:inline;fill:#31404a;fill-opacity:1;stroke:none;stroke-width:0.081007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 14.162362,15.341926 -2.5,4.5 2.5,4.5 h 2 l -2.5,-4.5 2.5,-4.5 z"
+       d="m 4,5.5 -2.5,4.5 2.5,4.5 h 2 l -2.5,-4.5 2.5,-4.5 z"
        id="path130-7-9" />
     <path
        style="display:inline;fill:#31404a;fill-opacity:1;stroke:none;stroke-width:0.081007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 17.162362,15.341926 -2.5,4.5 2.5,4.5 h 2 l -2.5,-4.5 2.5,-4.5 z"
+       d="m 7,5.5 -2.5,4.5 2.5,4.5 h 2 l -2.5,-4.5 2.5,-4.5 z"
        id="path130-7-9-8" />
     <path
        style="display:inline;fill:#31404a;fill-opacity:1;stroke:none;stroke-width:0.081007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 23.162362,24.341926 2.5,-4.5 -2.5,-4.5 h -2 l 2.5,4.5 -2.5,4.5 z"
+       d="m 13,14.5 2.5,-4.5 -2.5,-4.5 h -2 l 2.5,4.5 -2.5,4.5 z"
        id="path130-7-9-7" />
     <path
        style="display:inline;fill:#31404a;fill-opacity:1;stroke:none;stroke-width:0.081007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 26.162362,24.341926 2.5,-4.5 -2.5,-4.5 h -2 l 2.5,4.5 -2.5,4.5 z"
+       d="m 16,14.5 2.5,-4.5 -2.5,-4.5 h -2 l 2.5,4.5 -2.5,4.5 z"
        id="path130-7-9-7-9" />
   </g>
 </svg>
