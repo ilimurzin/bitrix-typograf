@@ -18,7 +18,7 @@ final class HtmlEditorEventHandlers
         \CJSCore::RegisterExt('ilimurzin_typograf', [
             'js' => [
                 '/bitrix/js/ilimurzin.typograf/script.js',
-                'https://cdn.jsdelivr.net/npm/typograf@6.14.1/dist/typograf.min.js',
+                'https://cdn.jsdelivr.net/npm/typograf@6/dist/typograf.min.js',
             ],
             'lang' => $moduleFolder . '/lang/' . LANGUAGE_ID . '/js.php'
         ]);
