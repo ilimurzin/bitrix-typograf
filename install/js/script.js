@@ -20,22 +20,22 @@ BX.addCustomEvent('OnEditorInitedBefore', function (editor) {
       const range = editor.selection.GetRange();
 
       let contentBefore;
-      let contendAfter;
+      let contentAfter;
       let result;
 
       if (range.startOffset === range.endOffset) {
         contentBefore = '';
-        contendAfter = '';
+        contentAfter = '';
         result = content;
       } else {
         contentBefore = content.substring(0, range.startOffset);
-        contendAfter = content.substring(range.endOffset);
+        contentAfter = content.substring(range.endOffset);
         result = content.substring(range.startOffset, range.endOffset);
       }
 
       result = typograf.execute(result);
 
-      editor.SetContent(contentBefore + result + contendAfter, true);
+      editor.SetContent(contentBefore + result + contentAfter, true);
       editor.ReInitIframe();
 
       BX.closeWait(wait);
