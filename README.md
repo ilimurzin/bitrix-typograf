@@ -14,24 +14,13 @@ https://marketplace.1c-bitrix.ru/solutions/ilimurzin.typograf/
 
 ### Композером
 
-Добавить в `composer.json` вашего проекта
-
-```json
-{
-    "extra": {
-        "bitrix-dir": "www/bitrix"
-    }
-}
+```sh
+composer config extra.bitrix-dir www/bitrix
+composer require ilimurzin/bitrix-typograf
 ```
 
 где `www/bitrix` — путь до директории bitrix.
 
-Выполнить команду
-
-```sh
-composer require ilimurzin/bitrix-typograf
-```
-
-### После установки
+## После установки
 
 В админке перейти в «Marketplace» → «Установленные решения» и нажать «Установить».
