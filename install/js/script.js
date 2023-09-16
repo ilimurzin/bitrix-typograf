@@ -31,6 +31,9 @@ BX.addCustomEvent('OnEditorInitedBefore', function (editor) {
         contentBefore = content.substring(0, range.startOffset);
         contentAfter = content.substring(range.endOffset);
         result = content.substring(range.startOffset, range.endOffset);
+
+        typograf.disableRule('common/space/trimLeft')
+        typograf.disableRule('common/space/trimRight')
       }
 
       result = typograf.execute(result);
