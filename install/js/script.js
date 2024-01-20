@@ -17,28 +17,8 @@ BX.addCustomEvent('OnEditorInitedBefore', function (editor) {
       const wait = BX.showWait(editor.dom.areaCont)
 
       const content = editor.GetContent()
-      const range = editor.selection.GetRange()
 
-      let contentBefore
-      let contentAfter
-      let result
-
-      if (range.startOffset === range.endOffset) {
-        contentBefore = ''
-        contentAfter = ''
-        result = content
-      } else {
-        contentBefore = content.substring(0, range.startOffset)
-        contentAfter = content.substring(range.endOffset)
-        result = content.substring(range.startOffset, range.endOffset)
-
-        typograf.disableRule('common/space/trimLeft')
-        typograf.disableRule('common/space/trimRight')
-      }
-
-      result = typograf.execute(result)
-
-      editor.SetContent(contentBefore + result + contentAfter, true)
+      editor.SetContent(typograf.execute(content), true)
       editor.ReInitIframe()
 
       BX.closeWait(wait)
